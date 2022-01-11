@@ -114,7 +114,7 @@ def runQGA(device_features,circuit, params,problem):
             display(circuit.draw(output="mpl", scale=0.8, fold=30))
             #print(circuit.draw(output="latex_source", fold=300))
             #print(circuit.qasm())
-            print("depth",circuit.depth())
+            #print("depth",circuit.depth())
         # Execute the circuit on the qasm simulator
         #save object circuit
         #if gen==0:
