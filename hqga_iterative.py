@@ -11,7 +11,7 @@ def runQGA(device,circuit, params,problem):
     globalBest=None
     list_bests=[]
     for g in range(params.depth):
-        # print(circuit)
+        print("Level", (g+1))
         hqga_utils.resetCircuit(circuit)
         problem.upper_bounds = new_upper_bounds
         problem.lower_bounds = new_lower_bounds
